@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contador palabras</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script>
+
+
+        function cuentaPalabras() {
+            //Guardo valores del textarea
+
+
+            //Separo la cadenacon espacio
+            var dividido = document.getElementById("myTextarea").value.split(" ");
+
+            //Longitud (en palabras)
+            var palabras = dividido.length;
+            document.getElementById("demo2").innerHTML = palabras;
+
+            //Capturo valores del Textarea - longitud para conocer el num de caracteres
+            var valortextarea = document.getElementById("myTextarea").value;
+            document.getElementById("demo3").innerHTML = valortextarea.length;
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+
+    <div class="content">
+
+
+        <h1> Contador de Palabras</h1>
+        <p>Pegá aqui tu texto, luego hacé click sobre el botón y te dirá la cantidad de palabras y la cantidad de
+            caracteres</p>
+
+        <textarea name="" id="myTextarea" cols="100" rows="20"></textarea>
+
+
+
+        </textarea>
+
+        <p>Haz clic para contar las palabras.</p>
+
+        <button type="button" onclick="cuentaPalabras()">Contar palabras</button>
+
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p>Palabras: </p>
+        <p id="demo2"></p>
+        <br>
+        <p>Caracteres: </p>
+        <p id="demo3"></p>
+
+    </div>
+
+
+
+</body>
+
+</html>
