@@ -26,20 +26,27 @@
     </header>
 
     <div class="content">
-        <textarea name="" id="myTextarea" cols="30" rows="10" style="border:2px solid white"></textarea>
 
-        <p>Haz clic para contar las palabras.</p>
+        <form>
+            <textarea name="" id="myTextarea" cols="30" rows="10" style="border:2px solid white"></textarea>
 
-        <button type="button" onclick="cuentaPalabras()">Contar palabras</button>
+            <p>Haz clic para contar las palabras.</p>
 
-        <p id="demo"></p>
-        <p id="demo1"></p>
+            <button type="button" onclick="cuentaPalabras()">Contar palabras</button>
+            <input type="button" class="limpiar" value="Borrar" onclick="borrarTexto();"> 
 
-        <p>Palabras: </p>
-        <p id="demo2"></p>
-        <br>
-        <p>Caracteres: </p>
-        <p id="demo3"></p>
+            <p id="demo"></p>
+            <p id="demo1"></p>
+
+            <h4>Cantidad de Palabras: </h4>
+            <p id="demo2"></p>
+            <br>
+            <h4>Cantidad de Caracteres: </h4>
+            <p id="demo3"></p>
+
+            
+
+        </form>
 
     </div>
 

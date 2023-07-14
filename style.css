@@ -25,12 +25,11 @@ font-size: 1.1em;
 margin-left:20px;
 
 }
-.content{
+form, .content{
     display: flex;
     justify-content:center;
     flex-direction: column;
-    padding: 20px; 
-   
+    padding: 10px; 
 }
 
 textarea{
@@ -58,4 +57,21 @@ textarea{
     background-color: #292828;
     color: rgb(27, 206, 42);
 
+}
+
+.limpiar{
+    background-color: #0a2341;
+    color: rgb(224, 224, 224);
+    padding: 10px;
+    width: 30vh;
+    border-radius: 5px;
+    font-weight: bold;
+    margin:20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.limpiar:hover{
+    background-color: #292828;
+    color: rgb(27, 206, 42);
 }

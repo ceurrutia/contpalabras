@@ -15,3 +15,7 @@ function cuentaPalabras() {
     document.getElementById("demo3").innerHTML = valortextarea.length;
 }
 
+function borrarTexto() {
+    document.getElementById("myTextarea").value = "";
+}
+
