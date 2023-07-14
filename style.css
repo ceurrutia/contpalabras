@@ -1,11 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    background: #3F51B5;
+    background: #333a61;
     font-family:'Montserrat', sans-serif;
     color: aliceblue;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
 
 h1{
     font-size: 2em;
@@ -21,27 +27,24 @@ margin-left:20px;
 }
 .content{
     display: flex;
-    height: 27vh;
     justify-content:center;
     flex-direction: column;
-    padding: 20vh; 
-    margin-top:20vh;  
+    padding: 20px; 
+   
 }
 
 textarea{
     margin:20px;
     padding: 20px;
     border-radius: 5px;
-    min-height: 180px;
-    border: 1 px solid whitesmoke;
+    border: 2 px solid rgb(129, 157, 175);
     overflow: hidden;
     font-size: 1.1em;
-    
 }
 
 .content button{
-    background-color: #CDDC39;
-    color: rgb(39, 38, 38);
+    background-color: #0a2341;
+    color: rgb(224, 224, 224);
     padding: 10px;
     width: 30vh;
     border-radius: 5px;
@@ -52,7 +55,7 @@ textarea{
 }
 
 .content button:hover{
-    background-color: #FFC107;
-    color: rgb(39, 38, 38);
+    background-color: #292828;
+    color: rgb(27, 206, 42);
 
 }
