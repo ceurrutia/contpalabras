@@ -42,8 +42,8 @@ textarea{
 }
 
 .content button{
-    background-color: #0a2341;
-    color: rgb(224, 224, 224);
+    background-color: #182c46e7;
+    color: rgb(221, 221, 221);
     padding: 10px;
     width: 30vh;
     border-radius: 5px;
@@ -55,12 +55,12 @@ textarea{
 
 .content button:hover{
     background-color: #292828;
-    color: rgb(27, 206, 42);
+    color: rgb(8, 155, 94);
 
 }
 
 .limpiar{
-    background-color: #0a2341;
+    background-color: #4b4b63;
     color: rgb(224, 224, 224);
     padding: 10px;
     width: 30vh;
@@ -73,5 +73,5 @@ textarea{
 
 .limpiar:hover{
     background-color: #292828;
-    color: rgb(27, 206, 42);
+    color: rgb(151, 189, 126);
 }
