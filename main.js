@@ -1,22 +1,24 @@
 
 function cuentaPalabras() {
-    //Guardo valores del textarea
+  
+    //separo cadena
+    let texto = document.getElementById("myTextarea").value;
+    let dividido = texto.split(' ')
 
-
-    //Separo la cadenacon espacio
-    var dividido = document.getElementById("myTextarea").value.split(" ");
-
-    //Longitud (en palabras)
-    var palabras = dividido.length;
+    //Longitud de las palabras
+    let palabras = dividido.length;
     document.getElementById("demo2").innerHTML = palabras;
 
     //Capturo valores del Textarea - longitud para conocer el num de caracteres
-    var valortextarea = document.getElementById("myTextarea").value;
-    document.getElementById("demo3").innerHTML = valortextarea.length;
+    let longitud = texto.length
+    document.getElementById("demo3").innerHTML = longitud
 }
 
 function borrarTexto() { 
     document.getElementById("myTextarea").value = "";
-    return cuentaPalabras()
+    
+    //reinicio  a 0 los valores
+    document.getElementById("demo2").innerHTML = "0"
+    document.getElementById("demo3").innerHTML = "0"
 }
 

@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background: #333a61;
+    background: #2c2c2c;
     font-family:'Montserrat', sans-serif;
     color: aliceblue;
 }
@@ -32,46 +32,61 @@ form, .content{
     padding: 10px; 
 }
 
-textarea{
-    margin:20px;
-    padding: 20px;
+textarea {
+    margin: 10px;
+    padding: 10px;
+    min-width: 70%;
     border-radius: 5px;
-    border: 2 px solid rgb(129, 157, 175);
-    overflow: scroll;
+    border: 2px solid rgb(129, 157, 175);
+    overflow: hidden;
     font-size: 1.1em;
+    color: rgb(255, 255, 255); 
 }
 
+.boton-container{
+    text-align: center;
+}
+
+.boton-container button,
+        .boton-container input[type="button"] {
+            display: inline-block; 
+            margin: 10px; 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            cursor: pointer; 
+        }
+
 .content button{
-    background-color: #4c638f;
-    color: rgb(221, 221, 221);
-    padding: 10px;
+    background-color: #b8cbe0;
+    color: rgb(44, 42, 42);
+    margin: 10px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
     width: 30vh;
     border-radius: 5px;
     font-weight: bold;
-    margin:20px;
-    font-size: 1.2em;
     cursor: pointer;
 }
 
 .content button:hover{
     background-color: #292828;
-    color: rgb(219, 207, 35);
+    color: rgb(179, 206, 214);
 
 }
 
 .limpiar{
-    background-color: #4c638f;
-    color: rgb(224, 224, 224);
+    background-color: #b8cbe0;
+    color: rgb(61, 61, 61);
     padding: 10px;
     width: 30vh;
     border-radius: 5px;
     font-weight: bold;
-    margin:20px;
+    margin:10px;
     font-size: 1.2em;
     cursor: pointer;
 }
 
 .limpiar:hover{
     background-color: #292828;
-    color:  rgb(219, 207, 35);
+    color:  rgb(252, 100, 100);
 }
